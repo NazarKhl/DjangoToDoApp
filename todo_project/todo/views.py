@@ -11,8 +11,8 @@ def update_task_status(request, task_id):
     task = get_object_or_404(Task, id=task_id)
     
     if request.method == "POST":
-        task.completed = not task.completed  # Перемикаємо статус
-        task.save()  # Зберігаємо зміни
+        task.completed = not task.completed  
+        task.save()  
         
-    return redirect('task_list')  # Повертаємо на сторінку зі списком завдань
+    return redirect('task_list')  
 
