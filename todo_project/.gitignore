@@ -15,4 +15,4 @@ todo_project\todo\migrations\__pycache__
 *.pot
 *.pyc
 db.sqlite3
-todo_project/todo_project/settings.py
+todo_project\todo_project\settings.py
